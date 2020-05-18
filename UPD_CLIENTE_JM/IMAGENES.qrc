@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>IMAGENES/colores-verde-neon35-76b0ea65041018772e1fa4e25707f5a5-1024-1024.jpg</file>
+        <file>IMAGENES/cuadrado_rojo_400x400.png</file>
+    </qresource>
+</RCC>
