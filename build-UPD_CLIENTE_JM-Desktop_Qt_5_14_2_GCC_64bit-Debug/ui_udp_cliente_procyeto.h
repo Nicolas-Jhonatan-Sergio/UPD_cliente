@@ -127,10 +127,10 @@ public:
         label_5 = new QLabel(centralwidget);
         label_5->setObjectName(QString::fromUtf8("label_5"));
         label_5->setEnabled(true);
-        label_5->setGeometry(QRect(490, 200, 111, 31));
+        label_5->setGeometry(QRect(490, 200, 121, 31));
         carnet = new QLineEdit(centralwidget);
         carnet->setObjectName(QString::fromUtf8("carnet"));
-        carnet->setGeometry(QRect(280, 70, 81, 31));
+        carnet->setGeometry(QRect(290, 70, 61, 31));
         carnet->setStyleSheet(QString::fromUtf8("image: url(:/new/prefix1/IMAGENES/cuadrado_rojo_400x400.png);"));
         label_6 = new QLabel(centralwidget);
         label_6->setObjectName(QString::fromUtf8("label_6"));
@@ -146,7 +146,7 @@ public:
         label_6->setStyleSheet(QString::fromUtf8("background-color:qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(255, 235, 235, 206), stop:0.35 rgba(255, 188, 188, 80), stop:0.4 rgba(255, 162, 162, 80), stop:0.425 rgba(255, 132, 132, 156), stop:0.44 rgba(252, 128, 128, 80), stop:1 rgba(255, 255, 255, 0))"));
         label_7 = new QLabel(centralwidget);
         label_7->setObjectName(QString::fromUtf8("label_7"));
-        label_7->setGeometry(QRect(140, 0, 401, 41));
+        label_7->setGeometry(QRect(120, 0, 451, 41));
         QFont font1;
         font1.setFamily(QString::fromUtf8("Droid Sans Fallback"));
         font1.setPointSize(27);
@@ -205,6 +205,7 @@ public:
         font3.setBold(true);
         font3.setWeight(75);
         datos_real->setFont(font3);
+        datos_real->setStyleSheet(QString::fromUtf8("gridline-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(61, 11, 2, 255), stop:1 rgba(255, 255, 255, 255));"));
         v = new QLabel(centralwidget);
         v->setObjectName(QString::fromUtf8("v"));
         v->setGeometry(QRect(30, 320, 65, 31));
@@ -403,7 +404,7 @@ public:
         label_5->setText(QString());
         carnet->setText(QString());
         label_6->setText(QString());
-        label_7->setText(QCoreApplication::translate("UDP_CLIENTE_PROCYETO", "<html><head/><body><p><span style=\" font-size:24pt;\">CONTROL DEL MOTOR</span></p></body></html>", nullptr));
+        label_7->setText(QCoreApplication::translate("UDP_CLIENTE_PROCYETO", "<html><head/><body><p><span style=\" font-size:24pt;\">MONITOREO DEL MOTOR</span></p></body></html>", nullptr));
         veli->setText(QCoreApplication::translate("UDP_CLIENTE_PROCYETO", "<html><head/><body><p><br/></p></body></html>", nullptr));
         vel->setText(QString());
         frei->setText(QCoreApplication::translate("UDP_CLIENTE_PROCYETO", "<html><head/><body><p><br/></p></body></html>", nullptr));
@@ -412,7 +413,7 @@ public:
         volti->setText(QCoreApplication::translate("UDP_CLIENTE_PROCYETO", "<html><head/><body><p><br/></p></body></html>", nullptr));
         tem->setText(QString());
         temi->setText(QCoreApplication::translate("UDP_CLIENTE_PROCYETO", "<html><head/><body><p><br/></p></body></html>", nullptr));
-        datos_real->setText(QCoreApplication::translate("UDP_CLIENTE_PROCYETO", "INFORMACION DEL MOTOR EN TIEMPO REAL", nullptr));
+        datos_real->setText(QCoreApplication::translate("UDP_CLIENTE_PROCYETO", "INFORMACI\303\223N DEL MOTOR EN TIEMPO REAL", nullptr));
         v->setText(QCoreApplication::translate("UDP_CLIENTE_PROCYETO", "VELOCIDAD", nullptr));
         f->setText(QCoreApplication::translate("UDP_CLIENTE_PROCYETO", "FRECUENCIA", nullptr));
         vl->setText(QCoreApplication::translate("UDP_CLIENTE_PROCYETO", "VOLTAJE", nullptr));
@@ -431,7 +432,7 @@ public:
         pf->setText(QString());
         pvl->setText(QString());
         pt->setText(QString());
-        letrero1->setText(QCoreApplication::translate("UDP_CLIENTE_PROCYETO", "<html><head/><body><p align=\"center\"><span style=\" font-size:14pt; color:#000000;\">El siguiente programa podr\303\241 revisar</span></p><p align=\"center\"><span style=\" font-size:14pt; color:#000000;\">la informaci\303\263n en tiempo real del motor para </span></p><p align=\"center\"><span style=\" font-size:14pt; color:#000000;\">esto por favoringrese su n\303\272mero de carnet.</span></p></body></html>", nullptr));
+        letrero1->setText(QCoreApplication::translate("UDP_CLIENTE_PROCYETO", "<html><head/><body><p align=\"center\"><span style=\" font-size:14pt; color:#000000;\">El siguiente programa podr\303\241 revisar</span></p><p align=\"center\"><span style=\" font-size:14pt; color:#000000;\">la informaci\303\263n en tiempo real del motor para </span></p><p align=\"center\"><span style=\" font-size:14pt; color:#000000;\">esto por favoringrese su n\303\272mero de carn\303\251.</span></p></body></html>", nullptr));
         letrero3->setText(QString());
         todobien->setText(QString());
         std1->setText(QCoreApplication::translate("UDP_CLIENTE_PROCYETO", "<html><head/><body><p align=\"center\"><span style=\" color:#ef2929;\">ESTADO</span></p></body></html>", nullptr));

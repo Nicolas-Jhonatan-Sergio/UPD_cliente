@@ -38,7 +38,7 @@ void UDP_CLIENTE_PROCYETO::on_pushButton_clicked()
     QString carnt;
     carnt=ui->carnet->text();
     numerocar=carnt.toInt();
-    char *argumento[3],direccion_c[16]={"./UPDCLIENTE.c"};
+    char *argumento[3],direccion_c[16]={"./UDPCLIENTE.c"};
     char carnet_id[10]={0};
     for(int i=0;i<8;i++)
     {
@@ -192,10 +192,10 @@ void UDP_CLIENTE_PROCYETO::on_pushButton_clicked()
                 ui->dvol->setText(QString::number(rangos[3]));
                 ui->dtem->setText(QString::number(rangos[4]));
 
-                ui->veli->setText(QString::number(velocidadi)+"+-");
-                ui->frei->setText(QString::number(frecuenciai)+"+-");
-                ui->volti->setText(QString::number(voltajei)+"+-");
-                ui->temi->setText(QString::number(temperaturai)+"+-");
+                ui->veli->setText(QString::number(velocidadi)+"±");
+                ui->frei->setText(QString::number(frecuenciai)+"±");
+                ui->volti->setText(QString::number(voltajei)+"±");
+                ui->temi->setText(QString::number(temperaturai)+"±");
                 ui->vel->setText(QString::number(tv));
                 ui->fre->setText(QString::number(frpor));
                 ui->volt->setText(QString::number(tvolt));
